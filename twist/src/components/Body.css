@@ -1,0 +1,117 @@
+
+
+.comp1 {
+    
+    /* width: 100vw; */
+   height: 91vh; 
+   background-image: url('https://ntwist.com/wp-content/uploads/2023/01/home-image-bg-v6.png');
+  position: relative;
+ 
+   
+}
+.flex{
+   display: flex;
+  justify-content: space-between;
+ 
+   position: absolute;
+   top:70px
+  }
+
+  .flex div:nth-child(1)  {
+  display: flex;
+  flex-direction: column;
+ 
+  margin-left: 20px;
+  margin-top: 90px;
+ 
+  }
+  
+  .flex h1 {
+   text-align: left;
+   color: white;
+   font-size:42px;
+   width:80%;
+   
+
+   
+  }
+  .flex button{
+ width:24%;
+ height:12%;
+ background-color: #007AFF;
+ color:white;
+ border:#007AFF;
+ border-radius: 4px;
+
+  }
+
+
+.comp1  img {
+
+   width: 94%;
+   height: 100%;
+  
+ 
+} 
+
+
+#maincontainer{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+}
+#maincontainer div{
+    border: 0px solid red;
+    padding: 32px 32px 32px 32px;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+   filter: brightness( 70% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
+}
+h2{
+    color: #FF3A2D;
+    font-size: 43px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+p{
+    line-height: 1.66em;
+    text-align: justify;
+    box-sizing: border-box;
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+button{
+    display: inline-block;
+    line-height: 1;
+    background-color: #FF3A2D;
+    font-size: 15px;
+    padding: 12px 24px;
+    border-radius: 3px;
+    color: #fff;
+    fill: #fff;
+    text-align: center;
+    transition: all .3s;
+    border: none;
+    margin-right: 80%;
+}
+@media (min-width: 400px) and (max-width: 1024px)  {
+    #maincontainer{
+        grid-template-columns: repeat(1,1fr);
+       
+    }
+    #maincontainer .text-container:nth-child(odd),
+    #maincontainer .image-container:nth-child(even) {
+        order: -1; 
+    }
+}

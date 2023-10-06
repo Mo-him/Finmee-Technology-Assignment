@@ -1,0 +1,37 @@
+.divv{
+    border:1px solid black;
+    background-color: #081528;
+    color: white;
+   
+}
+
+.divimg{
+    width: 150px;
+    margin-left: 45%;
+    margin-top: 30px;
+
+}
+
+.divptag{
+    display: flex;
+    margin-left:35%;
+    font-weight: bold;
+    gap: 30px;
+
+}
+
+.divaddress{
+    margin-left:39%;
+}
+
+.divlogo{
+    display: flex;
+    margin-left:49%;
+    font-weight: bold;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.divend{
+    margin-left:47%;
+}
